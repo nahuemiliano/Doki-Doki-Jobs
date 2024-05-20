@@ -218,11 +218,11 @@ def scrapingDokiDoki(palabra):
 
     return contador, resultados_gaijinpot, resultados_wantedly, resultados_daijob
 
-def load_lottiefile(filepath: str):
-    with open(filepath, "r") as f:
-        return json.load(f)
+# def load_lottiefile(filepath: str):
+#     with open(filepath, "r") as f:
+#         return json.load(f)
 
-lottie_coding = load_lottiefile('Imágenes\Animation - 1715635226627.json')
+# lottie_coding = load_lottiefile('Imágenes\Animation - 1715635226627.json')
 
 def main():
     # Imagen centrada
