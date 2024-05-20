@@ -226,7 +226,7 @@ def scrapingDokiDoki(palabra):
 
 def main():
     # Imagen centrada
-    st.image("Imágenes\Logo Doki Doki.png", width=200)
+    st.image("Imágenes/Logo Doki Doki.png", width=200)
 
     st.title("Encuentra tu trabajo aquí")
     palabra = st.text_input("Ingrese la palabra clave de búsqueda:")
